@@ -41,7 +41,7 @@ export default function App() {
           <option key = {dog} value = {dog}>{dog}</option>
         ))}
       </select>
-      <h1>Get Image here</h1>
+      <h1>Get Image Here</h1>
       <div className ="img">
           <img src = {img} alt = {`no image for ${dogName}`}/>
       </div>
